@@ -1,0 +1,6 @@
+{
+  "name": "Romanza NLP - Romantik Kitap Analiz Sistemi",
+  "description": "Kitap isimleri ve açıklamalarını doğal dil işleme (NLP) yöntemleriyle anlık olarak analiz edip romantik kitapları diğer edebi türlerden ayıran modern web uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
