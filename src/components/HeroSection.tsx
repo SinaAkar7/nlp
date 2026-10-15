@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles, ArrowRight } from 'lucide-react';
+import heroBannerImage from '../assets/images/hero_literary_romance_1792059862797.jpg';
 
 interface HeroSectionProps {
   onSelectSample: (title: string, author?: string, blurb?: string) => void;
@@ -84,7 +85,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           <div className="lg:col-span-5">
             <div className="relative rounded-lg overflow-hidden border border-stone-200 shadow-sm bg-stone-100 aspect-[16/10] sm:aspect-[16/9] lg:aspect-[4/3] group">
               <img
-                src="/src/assets/images/hero_literary_romance_1792059862797.jpg"
+                src={heroBannerImage}
                 alt="Klasik edebiyat ciltleri, mektup ve kurutulmuş güller"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-102"
